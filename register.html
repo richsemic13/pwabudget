@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center">Register</h2>
+
+    <input type="text" id="regUsername" class="form-control mb-2" placeholder="Username">
+    <input type="email" id="regEmail" class="form-control mb-2" placeholder="Email">
+    <input type="password" id="regPassword" class="form-control mb-2" placeholder="Password">
+    <input type="password" id="regConfirmPassword" class="form-control mb-2" placeholder="Confirm Password">
+
+    <button class="btn btn-success btn-block" onclick="register()">Register</button>
+
+    <p class="text-center mt-2">
+        Already have account? <a href="index.html">Login</a>
+    </p>
+</div>
+
+<script src="auth.js"></script>
+</body>
+</html>
